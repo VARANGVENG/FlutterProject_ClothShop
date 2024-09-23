@@ -1,0 +1,157 @@
+class Product {
+  final String title;
+  final String image;
+  final double price;
+  final String category;
+  final String description;
+  final String size;
+  int quantity;
+
+  Product({
+    required this.title,
+    required this.image,
+    required this.price,
+    required this.category,
+    required this.description,
+    required this.size,
+    required this.quantity,
+  });
+}
+
+final List<Product> all = [
+  Product(
+    title: "Man",
+    image: "image",
+    price: 2000,
+    category: "category",
+    description: "description",
+    size: "L",
+    quantity: 1,
+  ),
+  Product(
+    title: "Man",
+    image: "image",
+    price: 2000,
+    category: "category",
+    description: "description",
+    size: "L",
+    quantity: 1,
+  ),
+  Product(
+    title: "Man",
+    image: "image",
+    price: 2000,
+    category: "category",
+    description: "description",
+    size: "L",
+    quantity: 1,
+  ),
+  Product(
+    title: "Man",
+    image: "image",
+    price: 2000,
+    category: "category",
+    description: "description",
+    size: "L",
+    quantity: 1,
+  ),
+  Product(
+    title: "Man",
+    image: "image",
+    price: 2000,
+    category: "category",
+    description: "description",
+    size: "L",
+    quantity: 1,
+  ),
+  Product(
+    title: "Man",
+    image: "image",
+    price: 2000,
+    category: "category",
+    description: "description",
+    size: "L",
+    quantity: 1,
+  ),
+  Product(
+    title: "Man",
+    image: "image",
+    price: 2000,
+    category: "category",
+    description: "description",
+    size: "L",
+    quantity: 1,
+  ),
+  Product(
+    title: "Man",
+    image: "image",
+    price: 2000,
+    category: "category",
+    description: "description",
+    size: "L",
+    quantity: 1,
+  ),
+  Product(
+    title: "Man",
+    image: "image",
+    price: 2000,
+    category: "category",
+    description: "description",
+    size: "L",
+    quantity: 1,
+  ),
+  Product(
+    title: "Man",
+    image: "image",
+    price: 2000,
+    category: "category",
+    description: "description",
+    size: "L",
+    quantity: 1,
+  ),
+  Product(
+    title: "Man",
+    image: "image",
+    price: 2000,
+    category: "category",
+    description: "description",
+    size: "L",
+    quantity: 1,
+  ),
+  Product(
+    title: "Man",
+    image: "image",
+    price: 2000,
+    category: "category",
+    description: "description",
+    size: "L",
+    quantity: 1,
+  ),
+  Product(
+    title: "Man",
+    image: "image",
+    price: 2000,
+    category: "category",
+    description: "description",
+    size: "L",
+    quantity: 1,
+  ),
+  Product(
+    title: "Man",
+    image: "image",
+    price: 2000,
+    category: "category",
+    description: "description",
+    size: "L",
+    quantity: 1,
+  ),
+  Product(
+    title: "Man",
+    image: "image",
+    price: 2000,
+    category: "category",
+    description: "description",
+    size: "L",
+    quantity: 1,
+  ),
+];
