@@ -1,7 +1,5 @@
 # Shopping App — UI Practice
 
-> > > > > > > f671bda (docs: write README with screenshot and project status)
-
 A shopping app UI written by hand in 2024 to practise Flutter layouts.
 This is an unfinished practice project: it uses sample images and hardcoded data.
 
