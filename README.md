@@ -1,16 +1,34 @@
-# FlutterProject_ClothShop
+# Shopping App — UI Practice
 
-A new Flutter project.
+> > > > > > > f671bda (docs: write README with screenshot and project status)
 
-## Getting Started
+A shopping app UI written by hand in 2024 to practise Flutter layouts.
+This is an unfinished practice project: it uses sample images and hardcoded data.
 
-This project is a starting point for a Flutter application.
+## Screenshot
 
-A few resources to get you started if this is your first Flutter project:
+<img src="screenshots/home.png" width="300" alt="Home screen">
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Status
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| Screen                                                          | Status                                       |
+| --------------------------------------------------------------- | -------------------------------------------- |
+| Home (categories, collections, product grid, bottom navigation) | Layout complete                              |
+| Cart                                                            | Layout only — items and counts are hardcoded |
+| Favourites                                                      | Layout only — items and counts are hardcoded |
+| Product detail                                                  | Placeholder                                  |
+| Profile                                                         | Placeholder                                  |
+
+- Cart and favourites state classes (Provider / ChangeNotifier) are written but not yet connected to the screens.
+- Updated in 2026: Android Gradle Plugin and Gradle upgraded so the project builds with current Flutter.
+
+## Tech stack
+
+Flutter (Dart), Provider
+
+## Running locally
+
+```bash
+flutter pub get
+flutter run
+```
