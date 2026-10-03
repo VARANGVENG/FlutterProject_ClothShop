@@ -60,13 +60,15 @@ class SmallCard extends StatelessWidget {
                               product.title,
                               style: const TextStyle(
                                 fontWeight: FontWeight.bold,
-                                fontSize: 14,
+                                fontSize: 15,
                               ),
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
                             ),
                           ],
                         ),
                         Text(
-                          "\$${product.price.toString()}",
+                          "\$${product.price.toStringAsFixed(2)}",
                           style: const TextStyle(
                             fontWeight: FontWeight.bold,
                             fontSize: 15,

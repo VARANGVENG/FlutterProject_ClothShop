@@ -59,7 +59,7 @@ class HomeScreen extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       const Text(
-                        "CATAGORY",
+                        "CATEGORY",
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 18,
