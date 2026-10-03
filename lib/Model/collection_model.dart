@@ -9,43 +9,43 @@ class Collections {
 
 final List<Collections> collections = [
   Collections(
-    title: "Collection1",
+    title: "Linen Button Shirt",
     image: "images/Collections/p1.jpg",
   ),
   Collections(
-    title: "Collection2",
+    title: "Wool Crew Sweater",
     image: "images/Collections/p2.jpg",
   ),
   Collections(
-    title: "Collection3",
+    title: "Classic Henley Top",
     image: "images/Collections/p3.jpg",
   ),
   Collections(
-    title: "Collection4",
+    title: "Wide-Leg Black Jeans",
     image: "images/Collections/p4.jpg",
   ),
   Collections(
-    title: "Collection5",
+    title: "Relaxed Cotton Tee",
     image: "images/Collections/p5.jpg",
   ),
   Collections(
-    title: "Collection6",
+    title: "Oversized Hoodie",
     image: "images/Collections/p6.jpg",
   ),
   Collections(
-    title: "Collection7",
+    title: "Pleated Chino Pants",
     image: "images/Collections/p7.jpg",
   ),
   Collections(
-    title: "Collection8",
+    title: "Denim Overshirt",
     image: "images/Collections/p8.jpg",
   ),
   Collections(
-    title: "Collection8",
+    title: "Striped Polo Shirt",
     image: "images/Collections/p9.jpg",
   ),
   Collections(
-    title: "Collection10",
+    title: "Light Wash Straight Jeans",
     image: "images/Collections/p10.jpg",
   ),
   Collections(

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_project_1/Model/collection.dart';
+import 'package:flutter_project_1/Model/collection_model.dart';
 
 class CollCard extends StatelessWidget {
   const CollCard({super.key});
@@ -43,7 +43,7 @@ class CollCard extends StatelessWidget {
                     child: Text(
                       collections[index].title,
                       style: const TextStyle(
-                        fontSize: 25,
+                        fontSize: 20,
                         fontWeight: FontWeight.bold,
                         color: Colors.black,
                       ),

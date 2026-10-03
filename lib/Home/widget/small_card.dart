@@ -2,7 +2,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_project_1/Detail/Detail_screen.dart';
-import 'package:flutter_project_1/Model/collection.dart';
+import 'package:flutter_project_1/Model/collection_model.dart';
 import 'package:flutter_project_1/Model/product_model.dart';
 
 class SmallCard extends StatelessWidget {
@@ -60,7 +60,7 @@ class SmallCard extends StatelessWidget {
                               product.title,
                               style: const TextStyle(
                                 fontWeight: FontWeight.bold,
-                                fontSize: 18,
+                                fontSize: 14,
                               ),
                             ),
                           ],
@@ -81,7 +81,7 @@ class SmallCard extends StatelessWidget {
                       height: 150,
                       decoration: BoxDecoration(
                         image: DecorationImage(
-                          fit: BoxFit.contain,
+                          fit: BoxFit.cover,
                           image: AssetImage(product.image),
                         ),
                         color: const Color.fromARGB(89, 158, 158, 158),
