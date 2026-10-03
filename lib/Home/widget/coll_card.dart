@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_demo/Model/collection.dart';
+import 'package:flutter_project_1/Model/collection.dart';
 
 class CollCard extends StatelessWidget {
   const CollCard({super.key});

@@ -1,6 +1,9 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
-import 'package:flutter_demo/Detail/Detail_screen.dart';
-import 'package:flutter_demo/Model/collection.dart';
+import 'package:flutter_project_1/Detail/Detail_screen.dart';
+import 'package:flutter_project_1/Model/collection.dart';
+import 'package:flutter_project_1/Model/product_model.dart';
 
 class SmallCard extends StatelessWidget {
   const SmallCard({
@@ -21,12 +24,12 @@ class SmallCard extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.all(11),
         child: SizedBox(
-          height: 350,
+          height: 450,
           width: double.infinity,
           child: GridView.builder(
             scrollDirection: Axis.vertical,
             // shrinkWrap: true,
-            itemCount: collections.length,
+            itemCount: min(collections.length, products.length),
             gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
               crossAxisCount: 3,
               mainAxisSpacing: 6,
@@ -34,6 +37,7 @@ class SmallCard extends StatelessWidget {
               childAspectRatio: 0.60,
             ),
             itemBuilder: (context, index) {
+              final Product product = products[index];
               return Stack(
                 children: [
                   Container(
@@ -44,21 +48,26 @@ class SmallCard extends StatelessWidget {
                       borderRadius: BorderRadius.circular(20),
                     ),
                   ),
-                  const Positioned(
+                  Positioned(
                     bottom: 10,
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text(
-                          "AIR JORDAN RETRO",
-                          style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            fontSize: 12.8,
-                          ),
+                        Row(
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          children: [
+                            Text(
+                              product.title,
+                              style: const TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 18,
+                              ),
+                            ),
+                          ],
                         ),
                         Text(
-                          "\$1000",
-                          style: TextStyle(
+                          "\$${product.price.toString()}",
+                          style: const TextStyle(
                             fontWeight: FontWeight.bold,
                             fontSize: 15,
                           ),
@@ -72,8 +81,8 @@ class SmallCard extends StatelessWidget {
                       height: 150,
                       decoration: BoxDecoration(
                         image: DecorationImage(
-                          fit: BoxFit.cover,
-                          image: AssetImage(collections[index].image),
+                          fit: BoxFit.contain,
+                          image: AssetImage(product.image),
                         ),
                         color: const Color.fromARGB(89, 158, 158, 158),
                         borderRadius: BorderRadius.circular(20),

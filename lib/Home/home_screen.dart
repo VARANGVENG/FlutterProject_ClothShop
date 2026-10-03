@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_demo/Cart/cart_screen.dart';
-import 'package:flutter_demo/Favorite/favorite_screen.dart';
-import 'package:flutter_demo/Home/widget/small_card.dart';
-import 'package:flutter_demo/Profile/profile.dart';
-import 'package:flutter_demo/colors.dart';
+import 'package:flutter_project_1/Cart/cart_screen.dart';
+import 'package:flutter_project_1/Favorite/favorite_screen.dart';
+import 'package:flutter_project_1/Home/widget/small_card.dart';
+import 'package:flutter_project_1/Profile/profile.dart';
+import 'package:flutter_project_1/colors.dart';
 import 'widget/coll_card.dart';
 
 class HomeScreen extends StatelessWidget {

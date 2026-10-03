@@ -18,11 +18,11 @@ class Product {
   });
 }
 
-final List<Product> all = [
+final List<Product> products = [
   Product(
     title: "Man",
-    image: "image",
-    price: 2000,
+    image: "images/Collections/p1.jpg",
+    price: 20,
     category: "category",
     description: "description",
     size: "L",
@@ -30,8 +30,8 @@ final List<Product> all = [
   ),
   Product(
     title: "Man",
-    image: "image",
-    price: 2000,
+    image: "images/Collections/p2.jpg",
+    price: 20,
     category: "category",
     description: "description",
     size: "L",
@@ -39,8 +39,8 @@ final List<Product> all = [
   ),
   Product(
     title: "Man",
-    image: "image",
-    price: 2000,
+    image: "images/Collections/p3.jpg",
+    price: 20,
     category: "category",
     description: "description",
     size: "L",
@@ -48,8 +48,8 @@ final List<Product> all = [
   ),
   Product(
     title: "Man",
-    image: "image",
-    price: 2000,
+    image: "images/Collections/p4.jpg",
+    price: 20,
     category: "category",
     description: "description",
     size: "L",
@@ -57,8 +57,8 @@ final List<Product> all = [
   ),
   Product(
     title: "Man",
-    image: "image",
-    price: 2000,
+    image: "images/Collections/p5.jpg",
+    price: 20,
     category: "category",
     description: "description",
     size: "L",
@@ -66,8 +66,8 @@ final List<Product> all = [
   ),
   Product(
     title: "Man",
-    image: "image",
-    price: 2000,
+    image: "images/Collections/p6.jpg",
+    price: 20,
     category: "category",
     description: "description",
     size: "L",
@@ -75,8 +75,8 @@ final List<Product> all = [
   ),
   Product(
     title: "Man",
-    image: "image",
-    price: 2000,
+    image: "images/Collections/p7.jpg",
+    price: 20,
     category: "category",
     description: "description",
     size: "L",
@@ -84,8 +84,8 @@ final List<Product> all = [
   ),
   Product(
     title: "Man",
-    image: "image",
-    price: 2000,
+    image: "images/Collections/p8.jpg",
+    price: 20,
     category: "category",
     description: "description",
     size: "L",
@@ -93,8 +93,8 @@ final List<Product> all = [
   ),
   Product(
     title: "Man",
-    image: "image",
-    price: 2000,
+    image: "images/Collections/p9.jpg",
+    price: 20,
     category: "category",
     description: "description",
     size: "L",
@@ -102,8 +102,8 @@ final List<Product> all = [
   ),
   Product(
     title: "Man",
-    image: "image",
-    price: 2000,
+    image: "images/Collections/p10.jpg",
+    price: 20,
     category: "category",
     description: "description",
     size: "L",
@@ -111,8 +111,8 @@ final List<Product> all = [
   ),
   Product(
     title: "Man",
-    image: "image",
-    price: 2000,
+    image: "images/Collections/p1.jpg",
+    price: 20,
     category: "category",
     description: "description",
     size: "L",
@@ -120,8 +120,8 @@ final List<Product> all = [
   ),
   Product(
     title: "Man",
-    image: "image",
-    price: 2000,
+    image: "images/Collections/p2.jpg",
+    price: 20,
     category: "category",
     description: "description",
     size: "L",
@@ -129,8 +129,8 @@ final List<Product> all = [
   ),
   Product(
     title: "Man",
-    image: "image",
-    price: 2000,
+    image: "images/Collections/p3.jpg",
+    price: 20,
     category: "category",
     description: "description",
     size: "L",
@@ -138,8 +138,8 @@ final List<Product> all = [
   ),
   Product(
     title: "Man",
-    image: "image",
-    price: 2000,
+    image: "images/Collections/p4.jpg",
+    price: 20,
     category: "category",
     description: "description",
     size: "L",
@@ -147,8 +147,8 @@ final List<Product> all = [
   ),
   Product(
     title: "Man",
-    image: "image",
-    price: 2000,
+    image: "images/Collections/p5.jpg",
+    price: 20,
     category: "category",
     description: "description",
     size: "L",
